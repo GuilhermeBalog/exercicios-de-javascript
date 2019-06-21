@@ -15,35 +15,41 @@ header{
 }
 
 .item{
-    /* border: 1px solid #262626; */
     box-shadow: 0px 0px 5px 0px rgba(26, 26, 26, 0.4);
     padding: 20px;
 }
 
-.item h2{
-    text-align: center;
+.item h3{
+    background-color: #398a76;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
 }
 
-.item ul{
-    list-style: outside;
-}
-
-.item ul li{
-    padding: 0;
-    margin: 0;
-}
-
-.item ul a{
-    text-decoration: none;
-    color: #673ab7;
+.exercise{
+    border-top: 1px solid #aaa;
+    margin-bottom: 5px;
 }
 
 .code{
-    display: block;
+    /* display: block; */
 	padding: 20px;
 	background-color: #363636;
 	color: white;
-	border-left: 10px solid tomato;
-	font-family: 'Consolas', monospace;
-	margin: auto;
+    font-family: 'Consolas', monospace;
+    border-radius: 20px;
+}
+
+button{
+    background-color: #398a76;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+button:focus{
+    outline: none;
 }
