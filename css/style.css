@@ -50,6 +50,14 @@ button{
     border-radius: 20px;
 }
 
-button:focus{
+input{
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+button:focus, input:focus{
     outline: none;
 }
