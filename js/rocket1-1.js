@@ -8,7 +8,7 @@ var sampleAdress = {
 }
 
 function printUserAdress(adressObject){
-    alert(`The user lives in ${adressObject.city} / ${adressObject.uf}, ${adressObject.neighborhood} neighborhood, \"${adressObject.street}\" Street, nº ${adressObject.number}.`)
+    document.querySelector("#rocket1-1 .result").innerHTML = `The user lives in ${adressObject.city} / ${adressObject.uf}, ${adressObject.neighborhood} neighborhood, \"${adressObject.street}\" Street, nº ${adressObject.number}.`
 }
 
 document.querySelector("#rocket1-1 .instructions").innerHTML = "var sampleAdress = " + JSON.stringify(sampleAdress, null, "\t")
