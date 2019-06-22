@@ -32,12 +32,15 @@ header{
 }
 
 .code{
-    /* display: block; */
 	padding: 20px;
 	background-color: #363636;
 	color: white;
     font-family: 'Consolas', monospace;
     border-radius: 20px;
+}
+
+span.code{
+    padding: 5px;
 }
 
 button{
